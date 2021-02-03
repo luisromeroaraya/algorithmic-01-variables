@@ -28,7 +28,8 @@ Programming languages usually have some predefined functions such as output and 
 Furthermore, you should also research [operators](https://computersciencewiki.org/index.php/Operators) and how to do operation within your code.
 
 Example
-```// This algorithm will output "Hi my name is John Doe and I am 42."
+```
+// This algorithm will output "Hi my name is John Doe and I am 42."
 constant NAME = "John Doe"
 integer age
 
@@ -55,7 +56,8 @@ Write an algorithm which calculates:
 - [x] the division of two chosen number
 - [x] the [modulo](https://en.wikipedia.org/wiki/Modulo_operation) of two inputed numbers
 
-```number1=int(input("Enter your first number:"))
+```
+number1=int(input("Enter your first number:"))
 number2=int(input("Enter your second number:"))
 
 sum=number1+number2
@@ -69,14 +71,16 @@ print(number1,"mod",number2,"=",modulo)
 
 II - concatenate sentence
 - [x] Write an algorithm which [concatenates](https://en.wikipedia.org/wiki/Concatenation) two phrases together.
-```phrase1=input("Enter your first phrase:")
+```
+phrase1=input("Enter your first phrase:")
 phrase2=input("Enter your second number:")
 
 print(phrase1+phrase2)
 ```
 III - VAT
 - [x] Write an algorithm which receives a price without VAT and returns the price with VAT with a rate of 21%.
-```price=float(input("Enter the price without VAT:"))
+```
+price=float(input("Enter the price without VAT:"))
 vat=price*0.21
 
 print(price+vat)
@@ -84,7 +88,8 @@ print(price+vat)
 
 IV - surface of a circle
 - [x] Write an algorithm which receives the radius of a circle and calculate its surface.
-```import math
+```
+import math
 radius=float(input("Enter the radius of a circle:"))
 surface=math.pi*(radius**2)
 
@@ -94,7 +99,8 @@ print("The surface of your circle is:",surface)
 V - conversion of time to seconds
 - [x] Write an algorithm which receives the time of day in three different numbers, the hour, the minutes and the seconds and returns the number of seconds since midnight.
 
-```hours=int(input("Enter hour:"))
+```
+hours=int(input("Enter hour:"))
 minutes=int(input("Enter minutes:"))
 seconds=int(input("Enter seconds:"))
 
