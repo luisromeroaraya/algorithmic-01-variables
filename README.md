@@ -1,4 +1,4 @@
-# Variables
+# [Variables](https://github.com/becodeorg/BXL-Swartz-4-27/blob/master/1.The-Field/7.Algorithmic/01-variables.adoc)
 * Type of challenge: **learning**
 * Duration: **30 min**
 * Team challenge: **solo**
@@ -55,7 +55,6 @@ Write an algorithm which calculates:
 - [x] the sum of two chosen number
 - [x] the division of two chosen number
 - [x] the [modulo](https://en.wikipedia.org/wiki/Modulo_operation) of two inputed numbers
-
 ```
 number1=int(input("Enter your first number:"))
 number2=int(input("Enter your second number:"))
@@ -98,7 +97,6 @@ print("The surface of your circle is:",surface)
 
 V - conversion of time to seconds
 - [x] Write an algorithm which receives the time of day in three different numbers, the hour, the minutes and the seconds and returns the number of seconds since midnight.
-
 ```
 hours=int(input("Enter hour:"))
 minutes=int(input("Enter minutes:"))
